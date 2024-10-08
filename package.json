@@ -13,6 +13,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@prisma/client": "^5.20.0",
     "axios": "^1.7.2",
     "bcrypt": "^5.1.1",
     "better-auth": "^0.2.11",
