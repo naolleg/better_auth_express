@@ -1,12 +1,12 @@
 {
-  "name": "ekub_prisma_typescript",
+  "name": "better-AUTH_prisma_typescript",
   "version": "1.0.0",
   "main": "server.ts",
   "type": "module",
   "scripts": {
     "start": "nodemon dist/server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "tsc -w & nodemon dist/app.js",
+    "dev": "tsc -w & nodemon dist/server.js",
     "build": "tsc"
   },
   "keywords": [],
@@ -18,8 +18,10 @@
     "bcrypt": "^5.1.1",
     "better-auth": "^0.2.11",
     "cors": "^2.8.5",
+    "csurf": "^1.11.0",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
+    "express-session": "^1.18.1",
     "jsonwebtoken": "^9.0.2",
     "multer": "^1.4.5-lts.1",
     "nodemailer": "^6.9.13",
@@ -29,8 +31,10 @@
   "devDependencies": {
     "@types/bcrypt": "^5.0.2",
     "@types/cors": "^2.8.17",
+    "@types/csurf": "^1.11.5",
     "@types/dotenv": "^8.2.0",
     "@types/express": "^4.17.21",
+    "@types/express-session": "^1.18.0",
     "@types/jsonwebtoken": "^9.0.6",
     "@types/node": "^20.16.11",
     "@types/nodemailer": "^6.4.15",
